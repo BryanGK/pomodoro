@@ -13,24 +13,45 @@
         <section class="container">
             <h1>Pomodoro Timer</h1>
             <div class="work-timer">
+                <div class="time">
+                    <select name="time" id="time-selector">
+                        <option value="">Please pick a timer:</option>
+                        <option value="25-5">25min work, 5min break</option>
+                        <option value="45-15">45min work, 15min break</option>
+                    </select>
+                </div><!-- end of time selector -->
+
                 <h3>Work Time</h3>
-                <span class="clock-work"></span>
+                <div class="clock">
+                    <span class="minutes-work"></span>
+                    <span class="seconds-work"></span>
+                </div><!-- end of work timer -->
+
                 <span class="button">
                     <button class="start-work">Start</button>
                     <button class="pause-work">Pause</button>
                     <button class="reset-work">Reset</button>
-                </span>
+                </span><!-- end of work buttons -->
+
             </div><!-- end of work timer -->
+
             <div class="break-timer">
                 <h3>Break Time</h3>
-                <span class="clock-break"></span>
+                <div class="clock">
+                    <span class="minutes-break"></span>
+                    <span class="seconds-break"></span>
+                </div><!-- end of break timer -->
+
                 <span class="button">
                     <button class="start-break">Start</button>
                     <button class="pause-break">Pause</button>
                     <button class="reset-break">Reset</button>
-                </span>
+                </span><!-- end of break buttons -->
+
             </div><!-- end of break timer -->
+
         </section> <!-- end of timer container -->
+
         <script src="script.js"></script>
     </body>
 
