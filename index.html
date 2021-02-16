@@ -5,6 +5,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Work+Sans&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="#">
         <link rel="stylesheet" href="style.css">
         <title>Pomodoro Timer</title>
     </head>
@@ -21,7 +24,11 @@
                     </select>
                 </div><!-- end of time selector -->
 
-                <h3>Work Time</h3>
+                <div class="button">
+                    <button class="reset-work">Reset</button>
+                </div>
+
+                <h2>Work Time</h2>
                 <div class="clock">
                     <span class="minutes-work"></span>
                     <span class="seconds-work"></span>
@@ -30,13 +37,12 @@
                 <span class="button">
                     <button class="start-work">Start</button>
                     <button class="pause-work">Pause</button>
-                    <button class="reset-work">Reset</button>
                 </span><!-- end of work buttons -->
 
             </div><!-- end of work timer -->
 
             <div class="break-timer">
-                <h3>Break Time</h3>
+                <h2>Break Time</h2>
                 <div class="clock">
                     <span class="minutes-break"></span>
                     <span class="seconds-break"></span>
@@ -45,9 +51,9 @@
                 <span class="button">
                     <button class="start-break">Start</button>
                     <button class="pause-break">Pause</button>
-                    <button class="reset-break">Reset</button>
+                    <!-- <button class="reset-break">Reset</button> -->
                 </span><!-- end of break buttons -->
-
+                
             </div><!-- end of break timer -->
 
         </section> <!-- end of timer container -->

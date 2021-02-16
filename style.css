@@ -1,0 +1,87 @@
+body {
+    background-color: thistle;
+}
+
+.container {
+    border: 1px solid #3a3a3a;
+    border-radius: 20px;
+    box-shadow: 6px 6px 2px 1px rgba(184, 113, 184, .75);
+    width: 450px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+    color: #3a3a3a;
+    font-size: 3em;
+    text-align: center;
+    font-family: Pacifico, Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: #3a3a3a;
+    text-align: center;
+    font-family: Pacifico, Arial, Helvetica, sans-serif;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.button button {
+    opacity: .65;
+    border-style: none;
+    border-radius: 20px;
+    box-shadow: 2px 2px 1px 1px rgba(184, 113, 184, .75);
+    width: 90px;
+    margin: 10px 10px;
+    padding: 5px 25px;
+    color: white;
+    font-size:  1em;
+    font-family: work sans, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    transition: .15s ease-in-out;
+}
+
+.button button:hover {
+    opacity: 1;
+}
+
+.button button:disabled {
+    opacity: .15;
+}
+
+.clock {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-family: work sans, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+.reset-work {
+    background-color: red;
+}
+
+.start-work {
+    background-color: green;
+}
+
+.pause-work {
+    background-color: gold;
+}
+
+.start-break {
+    background-color:green;
+}
+
+.pause-break {
+    background-color: gold;
+}
